@@ -106,7 +106,7 @@ docker push <your_ACR_name>.azurecr.io/<your_image_name>:v1
 
 ## 7. Create Azure Key Vault and add a secret with name 'kvsecret' to it
 * Follow instructions at [Quickstart: Set and retrieve a secret from Azure Key Vault using the Azure portal](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal) to create a Key Vault
-* Follow [add-a-secret-to-key-vault]https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal#add-a-secret-to-key-vault) to add a secret named 'kvsecret', which is what's used in the web app
+* Follow [add-a-secret-to-key-vault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal#add-a-secret-to-key-vault) to add a secret named 'kvsecret', which is what's used in the web app
 
 ## 8. Create AKS pod identity
 ```dotnetcli
